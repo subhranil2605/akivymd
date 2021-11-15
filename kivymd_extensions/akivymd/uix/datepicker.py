@@ -135,7 +135,7 @@ Builder.load_string(
 
 class AKDatePicker(BaseDialog, ThemableBehavior):
 
-    year_range = ListProperty([1930, 2021])
+    year_range = ListProperty([1930, 2050])
     month_type = OptionProperty("string", options=["string", "int"])
     _day_title = StringProperty("-")
     _month_title = StringProperty("-")
